@@ -1,0 +1,24 @@
+.title{
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    background-color:rgba(143, 178, 201, 0.8);
+}
+
+#calendar-container>div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#calendar-month-year{
+    margin: 5px;
+}
+
+#calendar-dates>table>tr>td{
+    padding: 5px;
+}

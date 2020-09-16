@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3da1a747b2.js" crossorigin="anonymous"></script>
+    <body class="w3-aqua">
+    <title>Weather Forecast</title>
+<!--Navbar end-->
+<main id="planner" class="container mt-5">  
+<!--Side left Navbar Start-->
+    <div class="row">
+        <nav  class="col-12 col-md-3 bg-light" id="time&date">      
+            <!-- Start - clock on the side bar -->
+            
+            <form class="input-group mb-3">
+                <input type="text" class="form-control inputcity" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <input class="btn btn-outline-secondary search" type="submit" value="submit"></input>
+                </div>
+            </form>
+            <div class="error-message"></div>
+            <div class="list-group citylist"></div>
+
+            <p class=""></p>
+            <p class=""></p>
+            <p class=""></p>
+        </nav>
+      <div class="col-12 col-md-9"> <!--Planner Header start-->
+            <div class="jumbotron">
+              <div class="border border-secondary h-30 bg-light rounded text-center mt-4 clock"></div>
+                <h1 class="display-4 bg-light cityname"></h1>
+                <hr class="my-4">
+                <p class="temp bg-light"><span class="tempno"></span</p>
+                <p class="Wind Speed bg-light"><span class="windspeedno"></span</p>
+                <p class="UV Index bg-light"><span class="uvindexno"></span></p>
+                <!-- <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p> -->
+              </div>
+            </header> <!--Planner Header end--> 
+           <div class="row forecast justify-content-around">
+        <!-- Event planner Main -->    
+
+        </main>
+    </div>
+</div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+  <script src="index.js"></script>
+</body>
+</html>
